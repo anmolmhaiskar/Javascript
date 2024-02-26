@@ -10,11 +10,14 @@ body{
 
 #game-board{
     background-color: #ccc;
+    background-image: url("./img/board.png");
     width: 100vmin;
     height: 100vmin;
     display: grid;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
+    border: 0.2vmin solid gray;
+    border-radius: 2%;
 }
 
 .snake{
